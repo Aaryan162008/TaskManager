@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Task</title>
+</head>
+<body>
+    <h1 class="h1class">My Tasker</h1>
+    <div class="formuldiv">
+    <div>
+    <div class="formdiv">
+    <form action="/add" method="POST" id="form">
+        <input type="text" name="task" id="task" placeholder="Enter a Task">
+        <input type="submit" value="Add" id="button">
+    </form>
+    </div>
+    <div class="uldiv">
+    <ul>
+        <% todo.forEach(todos => { %>
+            <li><%= todos.task %> <a href="/delete/todo/<%= todos._id %>">Delete</a></li>
+
+    <% }) %>
+    </ul>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: peachpuff;
+}
+.formduliv{
+    height: 87vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+}
+.formdiv{
+    padding-left: 525px;
+}
+.h1class{
+    text-align: center;
+    padding-top: 200px;
+}
+.uldiv{
+    width: 50%;
+    height: 50vh;
+    display: block;
+    margin: auto;
+    padding-left: 25rem;
+}
